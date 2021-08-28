@@ -7,8 +7,9 @@ describe('Rendering', () => {
     render(<SampleRender />);
     //screen.debug();
     //https://github.com/A11yance/aria-query#elements-to-roles
-    // screen.debug(screen.getByRole('heading'));
     //https://jestjs.io/docs/en/expect
+
+    // screen.debug(screen.getByRole('heading'));
     expect(screen.getAllByRole('heading')[0]).toBeTruthy();
     expect(screen.getAllByRole('heading')[1]).toBeTruthy();
     expect(screen.getByText('React Testing Library Lesson')).toBeTruthy();
