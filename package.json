@@ -6,6 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "jest`s メモ": "// The error below may be caused by using the wrong test environment, see https://jestjs.io/docs/configuration#testenvironment-string. Consider using the `jsdom` test environment.",
+    "test": "jest --env=jsdom",
+    "test:watch": "jest --env=jsdom --watch",
     "next:lint": "next lint",
     "lint": "eslint src/** --ext .ts,.tsx",
     "lint:fix": "eslint src/** --ext .ts,.tsx --fix && yarn format",
@@ -30,6 +33,9 @@
     "styled-components": "^5.3.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^27.0.1",
     "@types/node": "^15.12.4",
     "@types/react": "^17.0.11",
     "@types/styled-components": "^5.1.10",
@@ -43,7 +49,9 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.1.0",
     "prettier": "^2.3.1",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.4"
   }
 }
