@@ -32,3 +32,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### テスト導入
+
+下記を参考
+
+- https://qiita.com/keitakn/items/0a714997eb058f2f67e2
+
+jest
+ts-jest
+react-test-renderer
+enzyme enzyme-adapter-react-16
+enzyme-to-json
+@types/jest
+@types/react-test-renderer
+@types/enzyme-adapter-react-16
