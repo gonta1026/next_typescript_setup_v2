@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import SampleRender from '../UiKit/SampleRender';
+import SampleRender from '../sample/SampleRender';
 
 describe('Rendering', () => {
   it('Should render all the elements correctly', () => {

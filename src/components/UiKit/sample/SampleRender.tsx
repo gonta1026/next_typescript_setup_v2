@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Home = () => {
+export const SampleRender = (): JSX.Element => {
   return (
     <div>
       <h1>React Testing Library Lesson</h1>
@@ -14,4 +14,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+export default SampleRender;

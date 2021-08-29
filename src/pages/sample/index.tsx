@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 import { TPostState } from '../../reducks/modules/Post';
 import { fetchPosts } from '../../reducks/services/Post';
+import SampleRenderInput from '../../components/UiKit/sample/SampleRenderInput';
 
 const Home: React.FC = () => {
   const dispatch = useDispatch();
@@ -12,8 +13,11 @@ const Home: React.FC = () => {
     dispatch(fetchPosts());
   }, []);
 
+  const outputConsole = () => console.log('test');
+
   return (
     <>
+      <SampleRenderInput {...{ outputConsole }} />
       {posts?.map((post, index) => (
         <p key={index}>{post.title}</p>
       ))}
