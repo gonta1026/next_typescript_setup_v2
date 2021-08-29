@@ -11,4 +11,5 @@
 
 # test tips
 
-- vscode の拡張で jest を入れるとチェックが確認をしやすい
+- vscode の拡張で jest を入れるとチェックが確認をしやすい（test ファイルで初期に結果が表示をされて誤表示があった。）
+- [React Testing Library の使い方](https://qiita.com/ossan-engineer/items/4757d7457fafd44d2d2f)
